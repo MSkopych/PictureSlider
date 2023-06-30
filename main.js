@@ -2,8 +2,8 @@ const upBtn = document.querySelector('.up-button');
 const downBtn = document.querySelector('.down-button');
 const sidebar = document.querySelector('.sidebar');
 const mainSlide = document.querySelector('.main-slide');
-const slideCount = mainSlide.querySelectorAll('div').length;
-const container = document.querySelector('.container');
+const slideCount = mainSlide.querySelectorAll('div').length;//get the number of images in the slider
+const container = document.querySelector('.container'); 
 
 sidebar.style.top = `-${(slideCount - 1) * 100}vh`;
 
